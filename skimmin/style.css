@@ -1,0 +1,20 @@
+:root { --bg: #0e1420; --panel: #141c2b; --ink: #0b0f17; --fg: #fff7e6; --muted: #9fb3d1; --gold: #ffd35a; --sky: #7fd1ff; color-scheme: dark; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+header img { width: 64px; height: 64px; border-radius: 14px; box-shadow: 0 0 0 3px var(--ink), 0 0 0 5px #3a4a66; }
+header a { color: inherit; text-decoration: none; }
+h1 { margin: 0; font-size: 28px; letter-spacing: 0.04em; color: var(--gold); }
+.tag { margin: 2px 0 0; font-size: 13px; color: var(--muted); letter-spacing: 0.04em; }
+h2 { margin: 36px 0 8px; font-size: 18px; letter-spacing: 0.06em; color: var(--gold); text-transform: uppercase; }
+h3 { margin: 22px 0 4px; font-size: 16px; color: var(--sky); }
+p, li { color: #e8eef6; }
+ul { padding-left: 22px; }
+a { color: var(--sky); }
+a:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.card { background: var(--panel); border: 3px solid var(--ink); box-shadow: inset 0 0 0 2px #4d6288; padding: 14px 18px; margin: 18px 0; }
+.card p { margin: 0; }
+nav.links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 40px; padding-top: 18px; border-top: 2px solid #2b3a55; font-size: 14px; }
+.small { font-size: 13px; color: var(--muted); }
